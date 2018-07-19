@@ -1,0 +1,10 @@
+*, html, body{margin: 0; padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+.container{margin: 100px auto;background: #70c8e1;max-width: 400px;padding: 30px;text-align: center;box-shadow: 0px 15px 0px -5px #000,0px -15px 0px -5px #000, 15px 0px 0px -5px #000,-15px 0px 0px -5px #000 ;}
+.list li{position:relative;padding: 10px 45px 10px 10px;box-shadow: 0px 1px 2px 1px black;margin-top: 30px;text-align: left;font-size: 1.4em;color: #fff;font-weight: bolder;background: #333131;}
+.del{width: 40px ;height: 40px;background: url(../images/delete.png)round;position: absolute;right: 0;top: 3px;cursor: pointer;display: block;}
+.data input{padding: 5px;}
+.data{background: #333131;padding: 5px;}
+.data input:last-child{background: #70c8e1;}
+.del:hover{filter: drop-shadow(0px 0px 15px #ff0d0d);}
+.list li{z-index: 100;}
+.list li:last-child{z-index: 1;}
